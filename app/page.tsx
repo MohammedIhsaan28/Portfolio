@@ -5,6 +5,7 @@ import FeatureCard from "@/sections/FeatureCard";
 import Hero from "@/sections/Hero";
 import Showcase from "@/sections/Showcase";
 import Experience from "@/sections/Experience";
+import Techstack from "@/sections/Techstack";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <LogoSection/>
       <FeatureCard/>
       <Experience/>
+      <Techstack/>
     </main>
   );
 }
