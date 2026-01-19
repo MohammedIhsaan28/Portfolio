@@ -2,20 +2,7 @@
 
 import { useRef } from "react";
 
-interface GlowCardProps {
-    card: {
-        review: string;
-        imgPath: string;
-        logoPath: string;
-        title: string;
-        date: string;
-        responsibilities :string[];
-    };
-    children: React.ReactNode;
-    index: number;
-}
-
-export default function GlowCard({card,children,index}: GlowCardProps) {
+export default function GlowCard({card,children,index}: {card: any, children: React.ReactNode, index: number}) {
     const cardRefs =useRef<HTMLDivElement[]>([]);
 
     const handleMouseMove = (index:number) => (e: React.MouseEvent<HTMLDivElement>) => {
@@ -40,7 +27,7 @@ export default function GlowCard({card,children,index}: GlowCardProps) {
             if(el) cardRefs.current[index] = el;
         }}            
         onMouseMove={handleMouseMove(index)} 
-        className="card card-border timeline-card rounded-xl p-10">
+        className="card card-border timeline-card rounded-xl p-10 mb-5 break-inside-avoid-column bg-zinc-900">
 
             <div className="glow"/>
 

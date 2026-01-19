@@ -13,8 +13,7 @@ interface TechIconProps {
 }
 
 export default function TechIcon({model}:TechIconProps) {
-    const scene = useGLTF(model.modelPath);
-
+    const {scene} = useGLTF(model.modelPath);
 
     return (
         <Canvas>
@@ -26,7 +25,7 @@ export default function TechIcon({model}:TechIconProps) {
 
             <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
                 <group scale={model.scale} rotation={model.rotation}>
-                    <primitive object={scene.scene}/>
+                    <primitive object={scene}/>
                 </group>
 
             </Float>
