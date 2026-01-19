@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 0, suffix: "+", label: "Years of Experience" },
+  { value: 0, suffix: "+", label: "Satisfied Clients" },
+  { value: 12, suffix: "+", label: "Completed Projects" },
+  { value: 0, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
@@ -174,7 +174,7 @@ const expCards = [
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "June 2024 - Present",
     responsibilities: [
       "Led the development of Docker's web applications, focusing on scalability.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",

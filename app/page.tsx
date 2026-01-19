@@ -8,6 +8,7 @@ import Experience from "@/sections/Experience";
 import Techstack from "@/sections/Techstack";
 import Testimonials from "@/sections/Testimonials";
 import Contact from "@/sections/Contact";
+import Footer from "@/sections/Footer";
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Techstack/>
       <Testimonials/>
       <Contact/>
+      <Footer/>
     </main>
   );
 }
