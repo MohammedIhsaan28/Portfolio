@@ -7,6 +7,7 @@ import Showcase from "@/sections/Showcase";
 import Experience from "@/sections/Experience";
 import Techstack from "@/sections/Techstack";
 import Testimonials from "@/sections/Testimonials";
+import Contact from "@/sections/Contact";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Experience/>
       <Techstack/>
       <Testimonials/>
+      <Contact/>
     </main>
   );
 }
